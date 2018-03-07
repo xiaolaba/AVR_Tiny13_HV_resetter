@@ -10,7 +10,7 @@ reset and done
 ![alt text](Attiny13_reset_Termnial.JPG)
 
 source code  
-Tiny13_HV_resetter.ino
+https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino
 
 hex files  
 https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.hex   
