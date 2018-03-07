@@ -13,8 +13,8 @@ source code
 Tiny13_HV_resetter.ino
 
 hex files  
-Tiny13_HV_resetter.ino.hex  
-Tiny13_HV_resetter.ino.with_bootloader.hex  
+https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.hex   
+https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.with_bootloader.hex    
 
 To embeds image to this read.me
 '![alt text](http://url/to/img.png)
