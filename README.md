@@ -17,15 +17,13 @@ https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.in
 https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.with_bootloader.hex    
 
 To embeds image to this read.me
-'![alt text](http://url/to/img.png)
-
-  
-  
-  
-
-
-  
-  
+.  
+.  
+.  
+.  
+.  
+.  
+.   
 2020-JUN-08 update
 
 ```
@@ -64,9 +62,11 @@ code
 .
 .
 .  
-
+Atmel Data sheet of how to,
 ![alt text](Attiny13_HV_reset_fuse1.jpg)  
-
+  
+Atmel Data sheet of how to,
 ![alt text](Attiny13_HV_reset_fuse2.jpg)  
-
+  
+chip, no ISP capable before the fuse rest.
 ![alt text](Attiny13_HV_reset_fuse3.jpg)  
