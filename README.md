@@ -19,7 +19,13 @@ https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.in
 To embeds image to this read.me
 '![alt text](http://url/to/img.png)
 
+  
+  
+  
 
+
+  
+  
 2020-JUN-08 update
 
 ```
@@ -55,3 +61,11 @@ code
     pinMode(SDO, INPUT);      // Set SDO to input, relase
     delayMicroseconds(300);   // wait for 300us before giving instruction to SDI/SII
 ```
+.
+.
+.
+![alt text](Attiny13_HV_reset_fuse1.jpg)  
+
+![alt text](Attiny13_HV_reset_fuse2.jpg)  
+
+![alt text](Attiny13_HV_reset_fuse3.jpg)  
