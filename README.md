@@ -63,7 +63,8 @@ code
 ```
 .
 .
-.
+.  
+
 ![alt text](Attiny13_HV_reset_fuse1.jpg)  
 
 ![alt text](Attiny13_HV_reset_fuse2.jpg)  
