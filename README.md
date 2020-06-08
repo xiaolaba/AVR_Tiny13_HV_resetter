@@ -62,11 +62,11 @@ code
 .
 .
 .  
-Atmel Data sheet of how to,
+Atmel Data sheet of how to,  
 ![alt text](Attiny13_HV_reset_fuse1.jpg)  
   
-Atmel Data sheet of how to,
+Atmel Data sheet of how to,  
 ![alt text](Attiny13_HV_reset_fuse2.jpg)  
   
-chip, no ISP capable before the fuse rest.
+chip, no ISP capable before the fuse rest.  
 ![alt text](Attiny13_HV_reset_fuse3.jpg)  
