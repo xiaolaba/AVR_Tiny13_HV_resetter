@@ -6,15 +6,18 @@ Uses 5V-12V booster circuit to provide 12V+/-0.5V VPP to enter HV mode. no 12V s
 revised firmware, enable reset swtich working alone to reset fuse, LED blinking fast at the end to singal job done.
 
 
-2020-JUN-08 update, 5v -> 12Vpp boost design  
-
-circuit design,
-![5V_12V_power_supply.1.jpg](5V_12V_power_supply.1.jpg)  
-.  
-![5V_12V_power_supply.2.jpg](5V_12V_power_supply.2.jpg)  
+2020-JUN-08 update, 5v -> 12Vpp boost design
 .  
 circuit testing, fine tune  
 ![5V_12V_power_supply.3.jpg](5V_12V_power_supply.3.jpg)  
+.  
+.  
+.  
+circuit design,  
+![5V_12V_power_supply.1.jpg](5V_12V_power_supply.1.jpg)  
+.    
+![5V_12V_power_supply.2.jpg](5V_12V_power_supply.2.jpg)  
+.  
 
 
 
@@ -63,18 +66,17 @@ Atmel Data sheet of how to,
 .  
 .  
 soruce code  
-![Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)
-.  
+![Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)  
+.    
 hex, 115200baud, Atmega168p    
-![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
-.  
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)     
+.    
 hex, 115200baud, Atmega168p, with Arduino bootloader  
-![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)       
 .  
 .  
 .
-.  
-
+.
 # Tiny13_HV_resetter. the old design, uses 12Vpp power supply
 2018-MAR-07
 Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode  
