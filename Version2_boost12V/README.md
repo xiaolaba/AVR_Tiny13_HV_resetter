@@ -60,18 +60,16 @@ Atmel Data sheet of how to,
 Atmel Data sheet of how to,  
 ![alt text](Attiny13_HV_reset_fuse2.jpg)  
     
-chip, no ISP capable before the fuse rest.  
-![alt text](Attiny13_HV_reset_fuse3.jpg)  
 .  
 .  
 soruce code
-![Tiny13_HV_resetter_12V_boost.ino](Tiny13_HV_resetter_12V_boost.ino)
+![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)
 .  
 hex, 115200baud, Atmega168p  
-![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
+![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
 .  
 hex, 115200baud, Atmega168p, with Arduino bootloader
-![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
+![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
 .  
 .  
 .
