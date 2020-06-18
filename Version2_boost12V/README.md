@@ -8,6 +8,16 @@ revised firmware, enable reset swtich working alone to reset fuse, LED blinking 
 
 2020-JUN-08 update, 5v -> 12Vpp boost design  
 
+circuit design,
+![5V_12V_power_supply.1.jpg](5V_12V_power_supply.1.jpg)  
+.  
+![5V_12V_power_supply.2.jpg](5V_12V_power_supply.2.jpg)  
+.  
+circuit testing, fine tune  
+![5V_12V_power_supply.3.jpg](5V_12V_power_supply.3.jpg)  
+
+
+
 ```
 
 procedure
@@ -58,10 +68,10 @@ soruce code
 ![Tiny13_HV_resetter_12V_boost.ino](Tiny13_HV_resetter_12V_boost.ino)
 .  
 hex, 115200baud, Atmega168p  
-![Tiny13_HV_resetter_12V_boost.168p.115200.hex](Tiny13_HV_resetter_12V_boost.168p.115200.hex)   
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
 .  
 hex, 115200baud, Atmega168p, with Arduino bootloader
-![Tiny13_HV_resetter_12V_boost.168p.with_bootloader.115200.hex](Tiny13_HV_resetter_12V_boost.168p.with_bootloader.115200.hex)     
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
 .  
 .  
 .
