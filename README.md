@@ -11,7 +11,7 @@ revised firmware, enable reset swtich working alone to reset fuse, LED blinking 
 circuit testing, fine tune  
 ![5V_12V_power_supply.3.jpg](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/5V_12V_power_supply.3.jpg)    
 
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/5V_12V_power_supply.1.jpg
+
 .  
 .  
 .  
