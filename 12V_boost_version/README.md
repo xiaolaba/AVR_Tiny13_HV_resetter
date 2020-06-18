@@ -66,24 +66,6 @@ soruce code
 ### the old design
 2018-MAR-07
 
-schematic & physical connection
-![alt text](Attiny13_reset_schematic_breadbroad.JPG)
+![https://github.com/xiaolaba/Tiny13_HV_resetter](https://github.com/xiaolaba/Tiny13_HV_resetter)
 
-reset and done  
-![alt text](Attiny13_reset_Termnial.JPG)
-
-source code  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino
-
-hex files  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.hex   
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.with_bootloader.hex    
-
-To embeds image to this read.me
-.  
-.  
-.  
-.  
-.  
-.  
 .   
