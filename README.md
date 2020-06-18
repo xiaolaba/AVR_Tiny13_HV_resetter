@@ -1,50 +1,45 @@
-# Tiny13_HV_resetter
-Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode
+# Tiny13_HV_resetter, by xiaolaba
+Attiny13, reset fuse and the chip, uses High Voltage (HV) Serial programming mode
 
-2018-MAR-07
+Uses 5V-12V booster circuit to provide 12V+/-0.5V VPP to enter HV mode. no 12V supply available around
 
-schematic & physical connection
-![alt text](Attiny13_reset_schematic_breadbroad.JPG)
+revised firmware, enable reset swtich working alone to reset fuse, LED blinking fast at the end to singal job done.
 
-reset and done  
-![alt text](Attiny13_reset_Termnial.JPG)
 
-source code  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino
-
-hex files  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.hex   
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.with_bootloader.hex    
-
-To embeds image to this read.me
+2020-JUN-08 update, 5v -> 12Vpp boost design
+.  
+circuit testing, fine tune  
+![5V_12V_power_supply.3.jpg](5V_12V_power_supply.3.jpg)  
 .  
 .  
 .  
+circuit design,  
+![5V_12V_power_supply.1.jpg](5V_12V_power_supply.1.jpg)  
+.    
+![5V_12V_power_supply.2.jpg](5V_12V_power_supply.2.jpg)  
 .  
-.  
-.  
-.   
-2020-JUN-08 update
+
+
 
 ```
 
 procedure
 
-é€²å…¥ é«˜å£“ PROGRAMMER ç‡’å¯«çš„æ–¹æ³•
+¶i¤J °ªÀ£ PROGRAMMER ¿N¼gªº¤èªk
 
-1) SDI, SII, SDO, RESET, VCC æ¥åœ°
-2) VCC æ¥åˆ° 4.5V - 5.5V, ä¿è­‰ VCC åœ¨20us å…§è¶…é 1.8V
-3) ç­‰å¾… 20 - 60us, ç„¶å¾Œ RESET æ¥ 12V +/-0.5V) (æœ€å°‘ 100ns)
-4) ç¶­æŒä»¥ä¸Šç‹€æ…‹æœ€å°‘ 10us (æ­¤æ™‚æ‡‰è©²å·²ç¶“é€²å…¥äº†é«˜å£“æ¨¡å¼)
-5) æ–·é–‹ SDO çš„æ¥åœ°, é¿å…æ¶å¥ª, çŸ­è·¯
-6) ç­‰å¾…æœ€å°‘ 300us, ç„¶å¾Œæ‰æ“ä½œ SDI å’Œ SII å° ATTINY13 è®€å¯«
-7) æ–·é›»é›¢é–‹æˆ– RESET æ¥åœ°ä¾¿å¯è„«é›¢é«˜å£“æ¨¡å¼
-
-
+1) SDI, SII, SDO, RESET, VCC ±µ¦a
+2) VCC ±µ¨ì 4.5V - 5.5V, «OÃÒ VCC ¦b20us ¤º¶W¹L 1.8V
+3) µ¥«İ 20 - 60us, µM«á RESET ±µ 12V +/-0.5V) (³Ì¤Ö 100ns)
+4) ºû«ù¥H¤Wª¬ºA³Ì¤Ö 10us (¦¹®ÉÀ³¸Ó¤w¸g¶i¤J¤F°ªÀ£¼Ò¦¡)
+5) Â_¶} SDO ªº±µ¦a, Á×§K·m¹Ü, µu¸ô
+6) µ¥«İ³Ì¤Ö 300us, µM«á¤~¾Ş§@ SDI ©M SII ¹ï ATTINY13 Åª¼g
+7) Â_¹qÂ÷¶}©Î RESET ±µ¦a«K¥i²æÂ÷°ªÀ£¼Ò¦¡
+```  
+.  
+.  
+.  
+```
 code
-
-
-
 
     pinMode(SDO, OUTPUT);     // Set SDO to output
     digitalWrite(SDI, LOW);
@@ -64,9 +59,25 @@ code
 .  
 Atmel Data sheet of how to,  
 ![alt text](Attiny13_HV_reset_fuse1.jpg)  
-  
+    
 Atmel Data sheet of how to,  
 ![alt text](Attiny13_HV_reset_fuse2.jpg)  
-  
-chip, no ISP capable before the fuse rest.  
-![alt text](Attiny13_HV_reset_fuse3.jpg)  
+    
+.  
+.  
+soruce code  
+![Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)  
+.    
+hex, 115200baud, Atmega168p    
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)     
+.    
+hex, 115200baud, Atmega168p, with Arduino bootloader  
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)       
+.  
+.  
+.
+.
+# Tiny13_HV_resetter. the old design, uses 12Vpp power supply
+2018-MAR-07
+Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode  
+![https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp](https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp)
