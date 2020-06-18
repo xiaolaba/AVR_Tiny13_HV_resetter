@@ -66,10 +66,8 @@ hex, 115200baud, Atmega168p, with Arduino bootloader
 .  
 .
 .  
-### the old design
 
-![https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp](https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp)
-
+# Tiny13_HV_resetter. the old design, uses 12Vpp power supply
 2018-MAR-07
-# Tiny13_HV_resetter
 Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode
+![https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp](https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp)
