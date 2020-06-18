@@ -75,17 +75,17 @@ Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode
 2018-MAR-07
 
 schematic & physical connection
-![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Attiny13_reset_schematic_breadbroad.JPG)
+![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/Attiny13_reset_schematic_breadbroad.JPG)
 
 reset and done  
-![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Attiny13_reset_Termnial.JPG)
+![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/Attiny13_reset_Termnial.JPG)
 
 source code  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino
+https://github.com/xiaolaba/Tiny13_HV_resetter/Tiny13_HV_resetter.ino
 
 hex files, 19200 baud, Atmega328p  
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.hex   
-https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Tiny13_HV_resetter.ino.with_bootloader.hex    
+https://github.com/xiaolaba/Tiny13_HV_resetter/Tiny13_HV_resetter.ino.hex   
+https://github.com/xiaolaba/Tiny13_HV_resetter/Tiny13_HV_resetter.ino.with_bootloader.hex    
 
 To embeds image to this read.me
 .  
@@ -134,11 +134,11 @@ code
 .
 .  
 Atmel Data sheet of how to,  
-![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Attiny13_HV_reset_fuse1.jpg)  
+![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/Attiny13_HV_reset_fuse1.jpg)  
   
 Atmel Data sheet of how to,  
-![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Attiny13_HV_reset_fuse2.jpg)  
+![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/Attiny13_HV_reset_fuse2.jpg)  
   
 chip, no ISP capable before the fuse rest.  
-![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Attiny13_HV_reset_fuse3.jpg)  
+![alt text](https://github.com/xiaolaba/Tiny13_HV_resetter/Attiny13_HV_reset_fuse3.jpg)  
  
