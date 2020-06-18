@@ -62,14 +62,14 @@ Atmel Data sheet of how to,
     
 .  
 .  
-soruce code
-![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)
+soruce code  
+![Tiny13_HV_resetter_ver2_boost12V.ino](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.ino)
 .  
-hex, 115200baud, Atmega168p  
-![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
+hex, 115200baud, Atmega168p    
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.hex)   
 .  
-hex, 115200baud, Atmega168p, with Arduino bootloader
-![https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
+hex, 115200baud, Atmega168p, with Arduino bootloader  
+![Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex](https://github.com/xiaolaba/Tiny13_HV_resetter/blob/master/Version2_boost12V/Tiny13_HV_resetter_ver2_boost12V.168p.115200.with_bootloader.hex)     
 .  
 .  
 .
@@ -77,5 +77,5 @@ hex, 115200baud, Atmega168p, with Arduino bootloader
 
 # Tiny13_HV_resetter. the old design, uses 12Vpp power supply
 2018-MAR-07
-Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode
+Attiny13, reset fuse and the chip, uses High Voltage Serial programming mode  
 ![https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp](https://github.com/xiaolaba/Tiny13_HV_resetter/tree/master/version1_12Vpp)
