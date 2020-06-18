@@ -8,11 +8,12 @@ revised firmware, enable reset swtich working alone to reset fuse, LED blinking 
 
 2020-JUN-08 update, 5v -> 12Vpp boost design
 .  
-circuit testing, fine tune    
+circuit testing, fine tune, test  
 ![5V_12V_power_supply.3.jpg](Version2_boost12V/5V_12V_power_supply.3.jpg)    
 
-
 .  
+chip reset, terminal display  
+![Attiny13_reset_Termnial.JPG](Version2_boost12V/Attiny13_reset_Termnial.JPG)  
 .  
 .  
 circuit design,  
