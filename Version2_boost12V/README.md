@@ -9,17 +9,17 @@ revised firmware, enable reset swtich working alone to reset fuse, LED blinking 
 2020-JUN-08 update, 5v -> 12Vpp boost design
 .  
 circuit testing, fine tune, test  
-![5V_12V_power_supply.3.jpg](Version2_boost12V/5V_12V_power_supply.3.jpg)    
+![5V_12V_power_supply.3.jpg](5V_12V_power_supply.3.jpg)    
 
 .  
 chip reset, terminal display  
-![Attiny13_reset_Termnial.JPG](Version2_boost12V/Attiny13_reset_Termnial.JPG)  
+![Attiny13_reset_Termnial.JPG](Attiny13_reset_Termnial.JPG)  
 .  
 .  
 circuit design,  
-![5V_12V_power_supply.1.jpg](Version2_boost12V/5V_12V_power_supply.1.jpg)  
+![5V_12V_power_supply.1.jpg](5V_12V_power_supply.1.jpg)  
 .    
-![5V_12V_power_supply.2.jpg](Version2_boost12V/5V_12V_power_supply.2.jpg)  
+![5V_12V_power_supply.2.jpg](5V_12V_power_supply.2.jpg)  
 .  
 
 
@@ -62,10 +62,10 @@ code
 .
  
 Atmel Data sheet of how to,  
-![alt text](Version2_boost12V/Attiny13_HV_reset_fuse1.jpg)  
+![alt text](Attiny13_HV_reset_fuse1.jpg)  
     
 Atmel Data sheet of how to,  
-![alt text](Version2_boost12V/Attiny13_HV_reset_fuse2.jpg)  
+![alt text](Attiny13_HV_reset_fuse2.jpg)  
     
 .  
 .  
